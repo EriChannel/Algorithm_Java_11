@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class _485_Max_Consecutive_Ones {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int sum = 0;

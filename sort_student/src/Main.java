@@ -80,7 +80,7 @@ public class Main {
         });
         students.forEach(System.out::println);
 
-        
+
 
 
     }

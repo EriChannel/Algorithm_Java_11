@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         TreeNode n6 = new TreeNode(6);
         TreeNode n2 = new TreeNode(2);
         TreeNode n9 = new TreeNode(9);
@@ -35,5 +35,13 @@ public class Main {
 
         System.out.println();
         binarySearchTree.preOrder(n6);
+        method(2,3,4);
+        method(1,2,3,4,5);
+        var a = "123";
+        var y = 4;
+    }
+
+    public static void method(int... a){
+
     }
 }
